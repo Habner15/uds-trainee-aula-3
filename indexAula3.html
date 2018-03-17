@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>.:Gilsimar Habner Monteiro:.</title>
+    <style>
+      body {
+          text-align: center;
+          background-color: #bbffbb;
+        }
+      button {
+          color: white;
+          background-color: green;
+          padding:  20px;
+          transition: background-color 0.5s;
+      }
+      button:hover {
+          background-color: #00aa00;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="idBotaoAdicionar"type="button">Adicionar</button>
+    <button id="idBotaoRetirar"type="button">Retirar</button>
+    <script>
+      var valor = 0;
+      document.getElementById('idBotaoAdicionar').addEventListener("click", incrementarValor);
+      function incrementarValor () {
+          valor++;
+          console.log(valor);
+      }
+      document.getElementById('idBotaoRetirar').addEventListener("click", decrementarValor);
+      function decrementarValor () {
+          valor--;
+          console.log(valor);
+      }
+      console.log(valor);
+    </script>
+  </body>
+</html>
+# uds-trainee-aula-3
+# uds-trainee-aula-3
+# uds-trainee-aula-3
